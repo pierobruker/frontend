@@ -47,11 +47,13 @@ export default function WelcomeScreen() {
                 <SelectItem value="en">English</SelectItem>
               </SelectContent>
             </Select>
-
+            
+            <Link href="/ayuda">
             <Button variant="outline" className="text-blue-600 border-blue-300">
               <HelpCircle className="mr-2 h-4 w-4" />
               Ayuda
             </Button>
+            </Link>
           </div>
         </CardContent>
 
