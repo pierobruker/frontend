@@ -7,6 +7,8 @@ import { Input } from "@/components/ui/input";
 import { Lock, ArrowRight, HelpCircle, Shield } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import Template from "../Template"; // ← Aquí está el conflicto
+
 
 export default function AuthenticationScreen() {
   const [pin, setPin] = useState("");
